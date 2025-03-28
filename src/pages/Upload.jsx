@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./upload.css";
+import "./Upload.css";
 import Button from "../components/Button";
 import { Link } from "react-router-dom";
 
