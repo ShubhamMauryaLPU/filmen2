@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { SignIn } from "../server/server.js";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../components/AuthContext.jsx";
-import "./Loginpage.css";
+import "./LoginPage.css";
 const LoginPage = () => {
   let [formData, setFormData] = useState({
     username: "",
